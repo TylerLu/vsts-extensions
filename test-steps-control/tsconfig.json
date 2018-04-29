@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "noImplicitAny": false,
+        "moduleResolution": "node",
+        "types": [
+            "vss-web-extension-sdk"
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "name": "vsts-extension-test-steps-control",
+    "version": "1.0.0",
+    "devDependencies": {
+        "vss-web-extension-sdk": "^5.131.0"
+    }
+}

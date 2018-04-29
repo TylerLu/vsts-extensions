@@ -1,0 +1,46 @@
+{
+    "manifestVersion": 1,
+    "id": "test-steps-control",
+    "version": "0.1.5",
+    "name": "Test steps control",
+    "description": "",
+    "publisher": "tyler",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "icons": {
+        "default": "images/icon.png"
+     },
+    "contributions": [
+        {  
+            "id": "test-steps-control",
+            "type": "ms.vss-work-web.work-item-form-control",
+            "description": "Test steps control",
+            "targets": [
+                "ms.vss-work-web.work-item-form"
+            ],
+            "properties": {
+                "name": "Test Steps Control",
+                "uri": "test-steps.html",
+                "height": 600
+            }
+        }
+    
+    ],
+    "files": [
+        {
+            "path": "test-steps.html", "addressable": true
+        },
+        {
+            "path": "scripts", "addressable": true
+        },
+        {
+            "path": "sdk/scripts", "addressable": true
+        },
+        {
+            "path": "images/icon.png", "addressable": true
+        }
+    ]
+}
