@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "sourceMap": false,
+        "moduleResolution": "node",
+        "types": [ "vss-web-extension-sdk", "jasmine" ]
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
